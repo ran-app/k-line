@@ -17,7 +17,7 @@ const paths = {
         dest: 'build/css'
     },
     scripts: {
-        src: 'src/js/root.js',
+        src: ['src/js/root.js'],
         dest: 'build/js'
     },
     html: {

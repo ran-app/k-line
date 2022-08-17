@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>k线图测试</title>
+    <link rel="stylesheet" href="./css/root.min.css">
 </head>
 <body>
+<div class="app">
+    <div class="phone">
+        <div id="menu" class="menu">
+            <div class="menu-tabs">
+                <div class="menu-item">分时</div>
+                <div class="menu-item">15分</div>
+                <div class="menu-item">1小时</div>
+                <div class="menu-item">4小时</div>
+                <div class="menu-item active">日线</div>
+                <div class="menu-item has-more more">更多</div>
+                <div class="menu-item has-more set">设置</div>
+            </div>
+            <div class="menu-pop menu-more">
+                <div class="sub-item">
+                    <div class="more-item">
+                        1分
+                    </div>
+                    <div class="more-item">
+                        5分
+                    </div>
+                    <div class="more-item">
+                        30分
+                    </div>
+                    <div class="more-item">
+                        1周
+                    </div>
+                </div>
+            </div>
+            <div class="menu-pop menu-set">
+                <div class="sub-item">
+                    <div class="more-item">主图</div>
+                    <div class="more-item active">MA</div>
+                </div>
+            </div>
+        </div>
+        <div id="chart" class="chart">
 
+        </div>
+        <div class="empty">
+
+        </div>
+        <div id="depth" class="depth">
+
+        </div>
+        <div class="explain">
+            说明: 其他框架（Vue、React、AngularJS、Framework7等）自行接入
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="./js/chart.min.js"></script>
+<script type="text/javascript" src="./js/root.min.js"></script>
 </body>
 </html>
