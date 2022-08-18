@@ -37,7 +37,9 @@ showTime | 显示分时图 | 无参数
 stopUpdate | 停止刷新 | 无参数
 startUpdate | 开始刷新 | 无参数
 destroy | 删除 | 无参数
+
 ## 2、深度图
+
 * DepthChart 为class对象，使用时使用new创建对象，参数如下
 
 参数名称 | 必须 | 参数说明
@@ -56,7 +58,7 @@ limit | 是 | 展示左右的数量
 参数名称 | 必须 | 参数说明
 ---- | ---- | ----
 code | 是 | 0成功、其他失败
-data | 是 | 数据格式（ 参考https://test.ranjun.work/api/depth?channel=TEST&limit=60 ）,格式为`{asks:[{price:number, total:number, volume:number}],bids:[{price:number, total:number, volume:number}]}`
+data | 是 | 数据格式（ 参考https://test.ranjun.work/api/depth?channel=TEST&limit=60), <br>格式为```{asks:[{price:number, total:number, volume:number}],bids:[{price:number, total:number, volume:number}]}```
 
 
 
