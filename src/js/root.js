@@ -131,7 +131,10 @@ initSetMenu();
 
 function initDepthChart() {
     window.depthChart = new DepthChart({
-        channel: 'USDT',
+        request: {
+            channel: 'USDT',
+            limit: 60
+        },
         el: document.getElementById('depth'),
         url: serverUrl+'/api/depth',
     })
