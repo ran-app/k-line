@@ -1,8 +1,6 @@
 # 使用说明
 
 ![图片](./document/002.png)
-![图片](./document/001.png)
-![图片](./document/003.png)
 ## 1、k线图
 * ChartGraph 为class对象，使用时使用new创建对象，参数如下
 
