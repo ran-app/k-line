@@ -58,7 +58,7 @@ limit | 是 | 展示左右的数量
 参数名称 | 必须 | 参数说明
 ---- | ---- | ----
 code | 是 | 0成功、其他失败
-data | 是 | 数据格式（[参考接口](https://test.ranjun.work/api/depth?channel=TEST&limit=60)), <br>```{asks:[{price:number, total:number, volume:number}],bids:[{price:number, total:number, volume:number}]}```
+data | 是 | 数据格式（[参考接口](https://test.ranjun.work/api/depth?channel=TEST&limit=60)), <br>{<br>&nbsp;&nbsp;&nbsp;asks:[{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;price:number,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total:number,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume:number<br>&nbsp;&nbsp;&nbsp;&nbsp;}],<br>&nbsp;&nbsp;&nbsp;&nbsp;bids:[{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;price:number,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total:number,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume:number<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]<br>}<br>asks安装price升序排列，bids为降序
 
 
 
