@@ -10,7 +10,7 @@ npm install
 # 调试
 npm run dev
 
-开发使用脚本/src/libs/chart.min.js
+开发使用脚本/src/libs/chart.min.js，Vue、React框架后续提供
 ```
 
 ## 1、k线图
