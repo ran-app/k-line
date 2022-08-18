@@ -3,7 +3,7 @@
 ![图片](https://github.com/RanJun2022/k-line/blob/main/document/002.png?raw=true)
 ![图片](https://github.com/RanJun2022/k-line/blob/main/document/001.png?raw=true)
 ![图片](https://github.com/RanJun2022/k-line/blob/main/document/003.png?raw=true)
-* ## 1、k线图
+## 1、k线图
 * ChartGraph 为class对象，使用时使用new创建对象，参数如下
 
 参数名称 | 必须 | 参数说明
@@ -27,5 +27,15 @@ time | 否 | k线图实时刷新传入的最新时间，如果传入返回time�
 ---- | ---- | ----
 code | 是 | 0成功、其他失败
 data | 是 | k线图数组数据,格式为[[时间秒,开盘价,最高价,最低价,收盘价,数量]]
-* ChartGraph方法说明
-***update刷新图表、参数为request***
+* ChartGraph 对象接口说明
+  
+接口名称 | 接口说明 | 参数说明
+---- | ---- | ----
+update | 刷新图表 | request参数
+updateChangeMa | 显示MA | true显示，false不显示
+showTime | 显示分时图 | 无参数
+stopUpdate | 停止刷新 | 无参数
+startUpdate | 开始刷新 | 无参数
+destroy | 删除 | 无参数
+
+
