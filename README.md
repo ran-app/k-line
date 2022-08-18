@@ -1,6 +1,18 @@
 # 使用说明
 
 ![图片](./document/002.png)
+
+## Build
+```angular2html
+# 安装依赖
+npm install
+
+# 调试
+npm run dev
+
+开发使用脚本/src/libs/chart.min.js
+```
+
 ## 1、k线图
 * ChartGraph 为class对象，使用时使用new创建对象，参数如下
 
