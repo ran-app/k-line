@@ -1,4 +1,6 @@
 ![图片](./document/002.png)
+![图片](./document/001.png)
+
 
 ## Build
 ```angular2html
