@@ -82,3 +82,4 @@ stopUpdate | 停止刷新 | 无参数
 startUpdate | 开始刷新 | 无参数
 destroy | 删除 | 无参数
 
+## 3、实例
