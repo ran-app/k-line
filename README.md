@@ -85,3 +85,36 @@ startUpdate | 开始刷新 | 无参数
 destroy | 删除 | 无参数
 
 ## 3、实例
+
+```angular2html
+1)、k线图
+const kLineChart = new ChartGraph({
+    el: window.document.getElementById('chart'),
+    url: 'http://https://test.ranjun.work/api/k',
+    request: {
+        channel: 'TEST',
+        period: 1440,           //分钟, 日线图
+        limit: 1500,            //初始获取1500条数据
+        //其他参数
+    },
+});
+//显示分时图
+kLineChart.showTime()
+//隐藏MA
+kLineChart.updateChangeMa(false)
+//更新图
+kLineChart.update({
+    request: {
+        period: 15          //更新为15分钟
+    }
+})
+2)、深度图
+let depthChart = new DepthChart({
+    request: {
+        channel: 'USDT',
+        limit: 60
+    },
+    el: document.getElementById('depth'),
+    url: serverUrl+'/api/depth',
+})
+```
