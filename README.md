@@ -79,7 +79,6 @@ data | 是 | 数据格式（[参考接口](https://test.ranjun.work/api/depth?ch
 接口名称 | 接口说明 | 参数说明
 ---- | ---- | ----
 update | 刷新图表 | channel
-updateChangeMa | 显示MA | true显示，false不显示
 stopUpdate | 停止刷新 | 无参数
 startUpdate | 开始刷新 | 无参数
 destroy | 删除 | 无参数
