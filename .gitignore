@@ -10,4 +10,4 @@ build/
 package-lock.json
 yarn-lock.json
 .DS_Store
-*/**/.DS_Store
+*/.DS_Store
